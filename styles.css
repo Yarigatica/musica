@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  background-color: pink;
+  height: 100vh;
+}
+
+.btn {
+  height: 150px;
+  width: 150px;
+  border-radius: 30px;
+  border: 1px solid rgb(238, 133, 208);
+  outline: none;
+  font-family: "Cormorant", serif;
+  font-weight: 800;
+  font-size: 80px;
+  text-shadow: 3px 0 black;
+  color: #ff2171;
+}
+
+.teclaA {
+  background-image: url("imagenes/crash.png");
+}
+
+.teclaS {
+  background-image: url("imagenes/kick.png");
+}
+.teclaD {
+  background-image: url("imagenes/snare.png");
+}
+.teclaF {
+  background-image: url("imagenes/tom1.png");
+}
+.teclaJ {
+  background-image: url("imagenes/tom2.png");
+}
+.teclaK {
+  background-image: url(imagenes/tom3.png);
+}
+
+.teclaL {
+  background-image: url(imagenes/tom4.png);
+}
